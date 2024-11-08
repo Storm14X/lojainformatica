@@ -1,0 +1,190 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    background: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+nav {
+    margin: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+table{
+    margin: 0 auto;
+    width: 75%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th{
+    background-color: #f2f2f2;
+}
+
+footer{
+    margin: 0 auto;
+    padding: 20px 0px;
+    text-align: center;
+    background: #007BFF;
+    color: white;
+    width: 100%;
+}
+
+.logo:hover{
+    transform: scale(1.05);
+}
+
+.zoom:hover{
+    transform: scale(1.05);
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.product {
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 200px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.btn{
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover{
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn:active{
+    background-color: #003f7f;
+    transform: scale(0.98);
+}
+
+#myBtn {
+    margin-bottom: 20px;
+    width: 50px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none;
+    outline: none; /* Remove outline */
+    background-color: #003f7f; /* Background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+  
+#myBtn:hover {
+    transform: scale(1.05);
+    background-color: #003f7f; /* Add a dark-grey background on hover */
+}
+
+.containersrv {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.title h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Conteúdo */
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.text {
+    max-width: 800px;
+    line-height: 1.8;
+    font-size: 1rem;
+    color: #444;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+.containercto {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
